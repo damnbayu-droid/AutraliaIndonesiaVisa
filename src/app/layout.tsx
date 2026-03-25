@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Indonesian Visas for Australians | Fast e-VOA & Digital Nomad Support",
   description: "Official Indonesia visa agency for Aussie travelers. 24/7 support for Bali e-VOA, B1 extensions, and E33G Remote Worker visas. Fast, 100% online processing.",
   keywords: ["Bali visa for Australians", "Indonesia e-VOA Australia", "E33G visa Bali", "Australia Indonesia visa extension", "Bali digital nomad visa"],
+  icons: {
+    icon: "/Logo.webp",
+  },
   alternates: {
     canonical: "https://australiaindonesiavisa.online",
   },
