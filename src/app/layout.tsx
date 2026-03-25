@@ -10,40 +10,38 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Australia Indonesia Visa | Indonesian Visas | Fast & Reliable Visa Services",
-  description: "Professional Australia Indonesia visa services through Indonesian Visas. 16+ years experience serving 97 countries. Fast, reliable visa processing for your Indonesian adventure.",
-  keywords: ["Australia Indonesia Visa", "Indonesian Visas", "Indonesia Visa", "Australia Visa Extension", "Tourist Visa Indonesia", "Business Visa Indonesia", "VOA Indonesia"],
-  authors: [{ name: "Indonesian Visas" }],
-  metadataBase: new URL("https://indonesianvisas.com"),
+  metadataBase: new URL("https://australiaindonesiavisa.online"),
+  title: "Indonesian Visas for Australians | Fast e-VOA & Digital Nomad Support",
+  description: "Official Indonesia visa agency for Aussie travelers. 24/7 support for Bali e-VOA, B1 extensions, and E33G Remote Worker visas. Fast, 100% online processing.",
+  keywords: ["Bali visa for Australians", "Indonesia e-VOA Australia", "E33G visa Bali", "Australia Indonesia visa extension", "Bali digital nomad visa"],
   alternates: {
-    canonical: "https://indonesianvisas.com",
+    canonical: "https://australiaindonesiavisa.online",
   },
   openGraph: {
-    title: "Australia Indonesia Visa - Professional Visa Services",
-    description: "Fast, reliable, and professional visa services for your Indonesian adventure through Indonesian Visas.",
-    url: "https://indonesianvisas.com",
+    title: "Indonesian Visas for Australians | Fast e-VOA & Digital Nomad Support",
+    description: "Expert visa services for Aussies visiting Indonesia. Apply for e-VOA, extensions, and Digital Nomad visas online.",
+    url: "https://australiaindonesiavisa.online",
     siteName: "Indonesian Visas",
+    locale: "en_AU",
     type: "website",
-    locale: "en_US",
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Australia Indonesia Visa | Indonesian Visas",
-    description: "Professional Indonesian visa services with 16+ years experience. Fast, reliable, and trusted by thousands worldwide.",
+    title: "Indonesian Visas for Australians",
+    description: "Fast e-VOA & Digital Nomad Support for Aussie travelers.",
+    creator: "@IndonesianVisas",
+    images: ["/og-image.png"],
+  },
+  other: {
+    "geo.region": "AU",
+    "geo.placename": "Australia",
+    "geo.position": "-25.274398;133.775136",
+    "ICBM": "-25.274398, 133.775136",
   },
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  verification: {
-    google: "your-google-verification-code",
   },
 };
 

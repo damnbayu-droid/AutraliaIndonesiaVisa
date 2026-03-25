@@ -1,6 +1,7 @@
 
 import { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import {
   Globe,
@@ -556,10 +557,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12">
             <div className="md:col-span-2">
-              <h2 className="text-2xl md:text-3xl font-black mb-4 text-white">Indonesian Visas Agency</h2>
-              <p className="text-base md:text-lg mb-6 leading-relaxed">
+              <h2 className="text-2xl md:text-3xl font-black mb-4 text-white uppercase italic">Indonesian <span className="text-amber-400">Visas</span> Agency</h2>
+              <p className="text-base md:text-lg mb-4 leading-relaxed font-medium">
                 Professional visa services for Australians. 16+ years experience. Fast, reliable, and trusted by thousands of Aussie travelers every year.
               </p>
+              <div className="mb-6">
+                <Link 
+                  href="/visa-sitemap" 
+                  className="text-amber-400 font-bold hover:underline underline-offset-4 flex items-center gap-2 group transition-all"
+                >
+                  <span className="w-1.5 h-1.5 bg-amber-400 rounded-full group-hover:scale-125 transition-transform" aria-hidden="true"></span>
+                  PLATFORM SITEMAP (New Location Cluster)
+                </Link>
+              </div>
             </div>
             <div>
               <h3 className="text-lg font-bold mb-4 text-white uppercase tracking-wider text-sm">Quick Links</h3>

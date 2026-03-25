@@ -1,0 +1,36 @@
+
+> nextjs_tailwind_shadcn_ts@0.2.0 build
+> next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 13.4s
+  Skipping validation of types
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/13) ...
+  Generating static pages using 3 workers (3/13) 
+  Generating static pages using 3 workers (6/13) 
+  Generating static pages using 3 workers (9/13) 
+✓ Generating static pages using 3 workers (13/13) in 1036.8ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /[location]
+├ ƒ /api
+├ ○ /robots.txt
+├ ○ /sitemap.xml
+├ ○ /visa-bali
+├ ○ /visa-indonesia
+├ ○ /visa-jakarta
+├ ○ /visa-jogja
+├ ○ /visa-lombok
+├ ○ /visa-sitemap
+└ ○ /visa-surabaya
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
